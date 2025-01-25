@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<title>Stress Reduction and Wellness Survey </title>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <!--Heading-->
+<h1 id="title">Stress Reduction and Wellness Survey </h1>
+<p id="description"> We invite you to share your personal stress management techniques to help researchers better understand effective wellness strategies. </p>
+
+     
+                  <!--Form-->
+                  <form id="survey-form">
+<!--Name-->
+<label id="name-label">
+What is your full name? <input type="text" id="name" placeholder="John Doe" required>
+</label>
+<br> <br>
+<!--Email-->
+<label id="email-label">
+What is your email address?
+<input type="email" id="email" placeholder="JohnDoe@gmail.com" required>
+</label>
+<br> <br>
+<!--Age-->
+<label id="number-label">
+How old are you? <input type="number" id="number" max="120" min="18" required placeholder="18">
+</label>
+<br> <br>
+<!--Options-->
+Which primary mental health challenge are you currently experiencing?
+<select id="dropdown">
+  <option value="" disabled> Choose One </option>
+  <option value="1">Work-related stress  </option>
+  <option value="2">Anxiety </option>
+  <option value="3"> Depression </option>
+  <option value="4"> Burnout </option>
+  <option value="5"> Other </option>
+   </select>
+<br> <br>
+   <!-- Radioo 1 -->
+How often do you practice stress reduction techniques?
+<br>
+
+<input type="radio" id="radio-1" name=
+"wellness-practice" value="radio-1"checked>Daily
+
+<input type="radio" id="radio-1" name=
+"wellness-practice" value="radio-1">Weekly
+
+
+<input type="radio" id="radio-1" name=
+"wellness-practice" value="radio-1">Monthly
+
+<br> <br>
+   <!-- Radioo 2 -->
+How important is stress reduction to you?
+
+<br>
+
+<input type="radio" id="radio-2" name=
+"wellness-importance" value="radio-2" checked>Very Important
+
+<input type="radio" id="radio-2" name=
+"wellness-importance" value="radio-2">Somewhat Important
+
+
+<input type="radio" id="radio-2" name=
+"wellness-importance" value="radio-2">Not  Important
+<br> </br>
+<!-- Checkbox -->
+Select the stress reduction techniques that have been most personally effective for you
+<br> <br>
+<input type="checkbox" value="checkbox"> Breathing Exercises
+<br>
+<input type="checkbox" value="checkbox"> Yoga
+<br>
+<input type="checkbox" value="checkbox"> Listening to Music
+<br>
+<input type="checkbox" value="checkbox"> Nature Walks
+<br>
+<input type="checkbox" value="checkbox"> Journaling
+<br> <br>
+<!-- Textarea -->
+Add Comment
+<br>
+<textarea>  </textarea>
+  <br> <br>
+  <button id="submit"> Submit </button>
+  </form>
+      </body>
+  </html>
+  

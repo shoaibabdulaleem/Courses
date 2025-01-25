@@ -1,0 +1,106 @@
+body {
+    font-family: "Montserrat", serif;    
+      background-image: url(https://images.unsplash.com/photo-1661457000438-550ec1b2af91?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  
+    }
+  
+  
+    h1, p {
+  text-align: center;
+    }
+  
+    p {
+      margin: -20px;
+    }
+  
+    #survey-form {
+      display: block;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 50px 500px;
+  
+  
+    }
+  
+    input::placeholder {
+      color: white;
+      opacity: 0.5;
+    }
+  
+  #name {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+      padding: 15px 20px;
+      border-radius: 15px;
+      margin-top: 10px;
+      font-size: 1em;
+      color: white;
+  
+  }
+  
+  #email {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: white;
+      padding: 15px 20px;
+      border-radius: 15px;
+      margin-top: 10px;
+      font-size: 1em;
+  
+  }
+  
+  input[type="number"] {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 30px;
+    width: 65px;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  
+  select {
+    background-color:rgba(0, 0, 0, 0.5) ;
+    width: 100%;
+    color: white;
+      padding: 15px 20px;
+      border-radius: 15px;
+      margin-top: 10px;
+      font-size: 1em;
+  }
+  
+  select:focus {
+    background-color: rgb(0, 0, 0) ;
+  
+  }
+  
+  textarea {
+    background-color:rgba(0, 0, 0, 0.5) ;
+    width: 300px;
+    height: 150px;
+    color: white;
+  }
+  
+  
+  button {
+    background-color: rgba(0, 0, 0, 0.5) ;
+    color: white;
+    font-family: "Montserrat", serif; 
+    height: 50px;
+    width: 300px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+  
+  }
+  
+  
