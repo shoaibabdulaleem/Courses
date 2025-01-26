@@ -1,6 +1,6 @@
 ## Live Website Link
 
-[View the live site here!](https://shoaibabdulaleem.github.io/Courses/Courses/Responsive%20Web%20Design/Project%201/)
+[View the live site here!](https://shoaibabdulaleem.github.io/My-Learnings/Courses/Responsive%20Web%20Design/Project%201/)
 
 ---
 
