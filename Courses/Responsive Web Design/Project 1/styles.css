@@ -104,4 +104,8 @@ body {
    display: block;
   }
   
-  
+  footer {
+    border-top: 5px solid rgba(0, 0, 0, 0.9) ;
+    margin-top: 20px;
+    font-size: 12px;
+  }
